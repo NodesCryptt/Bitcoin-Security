@@ -68,7 +68,7 @@ except ImportError:
 class RuntimeConfig:
     """Runtime configuration."""
     # Bitcoin Core
-    rpc_url: str = "http://cp1user:CP1SecurePassword123!@127.0.0.1:18443"
+    rpc_url: str = "http://cp1user:CP1SecurePassword123!@127.0.0.1:8332"
     zmq_rawtx: str = "tcp://127.0.0.1:28332"
     
     # Redis
